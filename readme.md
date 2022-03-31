@@ -180,3 +180,14 @@ module.exports = {
     ['@babel/plugin-transform-runtime'] // 비동기 처리를 위한 패키지
   ]
 }
+```
+## npx degit
+
+```
+버전관리가 없는 새로운 프로젝트를 다운
+npx degit sacultang/'다운로드 할 reposit' '저장할 디렉토리 주소'
+```
+```
+버전관리가 되어있는 프로젝트 다운
+git clone https://github.com/sacultang/WEBPACK-TEMPLATE
+```
