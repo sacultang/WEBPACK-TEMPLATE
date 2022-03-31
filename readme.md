@@ -185,9 +185,9 @@ module.exports = {
 
 ```
 버전관리가 없는 새로운 프로젝트를 다운
-npx degit sacultang/'다운로드 할 reposit' '저장할 디렉토리 주소'
+npx degit [USERNAME]/[REPOSITORY_NAME] [저장할 디렉토리 주소]
 ```
 ```
 버전관리가 되어있는 프로젝트 다운
-git clone https://github.com/sacultang/WEBPACK-TEMPLATE
+git clone https://github.com/[USERNAME]/[REPOSITORY_NAME].git
 ```
