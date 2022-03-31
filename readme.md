@@ -46,6 +46,7 @@ $ npm i -D html-webpack-plugin
 ```
 ```js
 webpack.config.js에 작성
+
 const htmlPlugin = require('html-webpack-plugin')  
 //번들링 후 결과물의 처리 방식 등 다양한 플러그인들을 설정
 plugins : [
@@ -128,7 +129,7 @@ module.exports= {
     ]
   }
 }
- 
+ ----------------------------------------------------------------------------
 
 .postcssrc.js에 작성
 
@@ -137,7 +138,8 @@ module.exports = {
     require('autoprefixer')
   ]
 }
-
+ ----------------------------------------------------------------------------
+ 
 package.json 에 작성
 
 "browserslist": [
